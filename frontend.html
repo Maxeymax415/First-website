@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!---defines the document to be a HTML5 file --->
+<html lang ="en">
+<!---the root element of an html file --->
+<head>
+<title>FIRSTCLASS BODYBUILDING CO.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale=1">
+<!---gives the computer readable and lets other devices view the site in their res --->
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* centers text */
+    background: #F7F2E0; /* background color */
+    color: rgb(105, 105, 105); /* text color */
+}
+.header h1 {
+    font-size: 40px;
+}
+.navbar  {
+    overflow: hidden; /* hides overflow */
+    background-color: #F7F2E0;
+}
+.navbar a {
+    float: left; /*makes sure the links stay side my side */
+    display: block; /* change the display to block, for responisve reasons */
+    color: black;
+    text-align: center;
+    padding: 14px 20px; 
+    text-decoration: none; /* removes underline */
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:#F7F2E0;
+}
+* {
+    box-sizing: border-box;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+/* main column */
+.main {
+    flex: 70%; /* set the width of the main content */
+    background-color: white; /* white background color */
+    padding: 20px; /* some padding */
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.sec-header {
+    text-align: center;
+    font-family: didot;
+}
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+       
+    }
+    .link-color {
+        color:black;
+    }
+}
+
+</style>
+</head>
+<body>
+<div class="navbar ">
+    <a href="#">About</a>
+    <a href="#">Shop</a>
+    <a href="#">Media</a>
+    <a href="#" class="right">Contact</a>
+</div>
+<!---navigation bar-->
+<div class="header">
+    <h1 style="color:black;font-family:Didot">THE FIRSTCLASS BODYBUILDING CO.</h1>
+    <h2 style="color:black;font-family:Didot">CREATED BY MAX RADOC</h2>
+</div>
+<h1 class="sec-header">Welcome to the FIRSTCLASS website</h1>
+<p style="text-align:center;font-family:Didot;color:black">This is the website for the best bodybuilding company in the world, We continue to excell not only in our companies fame,  but also on informing and helping out all the sad kids that want to be sick cunts when they're older. We want to share how we live and how we handle our gains. We stand for healthy lifestyles, going to the gym, becoming the best version of yourself, and lastly, BEING A SICK CUNT!</p>
+<img src="IMG_0876 2.PNG" alt="picture of my lat spread" style="width:150px;height:300px;" class="center">
+<div class="row">
+    <div class="side">CONTACT US @ 1-(800)-888-8888</div>
+    <div class="main">BE A SICK CUNT!</div>
+</div>
+
+<div class="footer">
+    <h2 style="color:black;font-family:Didot">@maxeymax415 On Instagram</h2>
+</div>
+
+
+
+</body>
+</html>
